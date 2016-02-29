@@ -266,7 +266,13 @@ footer p {
   font-weight: 300;
   color: #fff;
 }
+.round { /*change it*/
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: red;
 
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

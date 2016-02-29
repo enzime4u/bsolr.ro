@@ -1,4 +1,7 @@
-$(function() {
+/* global $ */
+'use strict';
+
+ $(function() {
     // Get the form.
     var form = $('#ajax-contact');
 
@@ -30,7 +33,7 @@ $(function() {
         $('#email').val('');
         $('#message').val('');
       })
-      .fail function(data) {
+      .fail(function(data) {
         //make sure the formMessages div has the 'error' class.
         $(formMessages).removeClass('success');
         $(formMessages).addClass('error');
@@ -41,7 +44,6 @@ $(function() {
         } else {
           $(formMessages).text('Oops ! An error occured and your message could not be send');
         }
-          console.log(formMessages);
       });
     });
 });
