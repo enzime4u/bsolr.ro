@@ -64,7 +64,7 @@
                     <li class="text-center">
                         <a href="agenti.html">Agents</a>
                     </li>
-                    <li class="text-center">
+                    <li class="text-center active-tab">
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -77,26 +77,25 @@
       <!-- CONTAINER WITH CONTACT FORM -->
       <div class="container bsolr-contact" id="contactUs">
         <div class="row">
-          <div class="col-md-12">
-                <p class="text-center">contact@bsolr.ro</p>
-          </div>
-        </div>  
-        <div class="row">
           <h1 class="title text-center contact-heading">Contact us</h1>
-                  <form method="post">
+                  <div id="form-messages"></div>
+                  <form id="ajax-contact" method="post" action="mailer.php">
                       <fieldset class="form-group">
                           <label for="name">Name</label>
-                          <input type="text" class="form-control" placeholder="Enter name" id="name">
+                          <input type="text" class="form-control" placeholder="Enter name" id="name" required>
                       </fieldset>
+
                       <fieldset class="form-group">
                           <label for="from">Email</label>
-                          <input type="email" class="form-control" placeholder="Enter email" id="from">
+                          <input type="email" class="form-control" placeholder="Enter email" id="from" required>
                       </fieldset>
+
                       <fieldset class="form-group">
                           <label for="text">Message</label>
                           <textarea class="form-control" rows="3" id="text"></textarea>
                       </fieldset>
-                      <button type="submit" class="btn btn-block btn-primary pull-right active">Submit</button>
+
+                      <button type="submit" class="btn btn-block btn-primary pull-right">Submit</button>
                   </form>
                   <div class="submitted hide">thank you!</div>
               </div>
@@ -117,6 +116,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+    <script src="scripts/app.js"></script>
 
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap/js/affix.js"></script>

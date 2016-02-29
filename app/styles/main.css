@@ -18,6 +18,8 @@ body {
   background-color: #fff;
 }
 
+/* HOME PAGE
+-------------------------------------------------- */
 
 .navbar .navbar-nav > li > a { /* de schimbat fontul aici */
     font-family: 'Roboto', sans-serif;
@@ -28,7 +30,7 @@ body {
 
 .navbar-custom {
   border: 0;
-  background-color: #EE6E73 ;
+  background-color: #44619D;
   margin-right: 0;
 }
 
@@ -45,6 +47,11 @@ body {
 .navbar-inverse .navbar-toggle,
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-color: #fff;
+}
+
+.active-tab {
+  border-top: 3px solid #3AC162;
+  color: #44619d;
 }
 
 
@@ -92,7 +99,7 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -102,6 +109,11 @@ body {
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+}
+.anunturi {
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 60px;
 }
 
 /* Featurettes
@@ -171,7 +183,9 @@ body {
 }
 
 .h4 {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 30px;
 }
 
 .as {
@@ -209,6 +223,30 @@ body {
 .form-control {
   padding: 20px;
   width: 100%;
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
 }
 
 /* FOOTER
