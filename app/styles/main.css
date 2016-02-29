@@ -205,7 +205,12 @@ body {
 -------------------------------------------------- */
 .custom-agent {
   padding: 5px 0 5px 20px;
-  marging: 20px 0 10px 0;
+  margin: 20px 0 10px 0;
+}
+
+.agents {
+  background-color: #fff;
+  padding: 0 40px;
 }
 
 /* CONTACT FORM
