@@ -197,10 +197,17 @@ body {
 
 /* PARTICIPANTS PAGE
 -------------------------------------------------- */
-.custom-participanti {
-
+.participanti {
+  min-height: 800px;
+  overflow: hidden;
+  border: none;
+  margin-top: 40px;
+  padding: 30px;
 }
-
+.myadd {
+  margin-left: 20px;
+  margin-top: 5px;
+}
 /* AGENTS
 -------------------------------------------------- */
 .custom-agent {

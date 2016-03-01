@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Participants</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="bsolr-icon" href="favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -20,6 +20,7 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <script src="scripts/main.js"></script>
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -74,17 +75,17 @@
             </div>
             <!-- /.container -->
         </nav>
-      <!-- CONTAINER WITH TABLE FOR PARTICIPANTS -->
-      <div class="container-fluid custom-container">
-        <div class="row">
-          <h1 class="text-center bg-success">Participants FCI Grandrix Black Sea One Loft Race 2016</h1>
+      <!-- CONTAINER WITH IMPORTED TABLE FOR PARTICIPANTS -->
+      <div class="container custom-container">
+        <div class="row ">
+          <div class="col-lg-12">
+            <h1 class="text-center bg-success custom-text">Participants of the<br><strong>FCI Grandrix Black Sea One Loft Race</strong><br>2016</h1>
+          </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
-          <table class="table table-bordered table-condensed text-center">
-              <thead class="text-center"><tr><th>th is 0</th><th>th is 1</th><th>th is 2</th><th>th is 3</th><th>th is 4</th></tr></thead>
-              <tbody><tr><td>cell is row 0, column 0</td><td>cell is row 0, column 1</td><td>cell is row 0, column 2</td><td>cell is row 0, column 3</td><td>cell is row 0, column 4</td></tr><tr><td>cell is row 1, column 0</td><td>cell is row 1, column 1</td><td>cell is row 1, column 2</td><td>cell is row 1, column 3</td><td>cell is row 1, column 4</td></tr><tr><td>cell is row 2, column 0</td><td>cell is row 2, column 1</td><td>cell is row 2, column 2</td><td>cell is row 2, column 3</td><td>cell is row 2, column 4</td></tr><tr><td>cell is row 3, column 0</td><td>cell is row 3, column 1</td><td>cell is row 3, column 2</td> <td>cell is row 3, column 3</td><td>cell is row 3, column 4</td></tr><tr><td>cell is row 4, column 0</td><td>cell is row 4, column 1</td><td>cell is row 4, column 2</td><td>cell is row 4, column 3</td><td>cell is row 4, column 4</td></tr></tbody>
-            </table>
+            <iframe class="col-lg-12 col-md-12 col-sm-12 col-xs-12 participanti" id="benzing" src="https://one-loft-race.com/external/show_participants.php?loft_id=9" name="One-Loft-Race"><p> Your browser does not support iFrames. You can view the content by clicking that link instead: <a href="https://one-loft-race.com/?page=3&loft_id=9">One Loft Race</a></p></iframe>
+            <p class="text-left text-danger myadd">* the table is from the official <a href="one-loft-race.com">Benzing</a> Website</p>
           </div>
         </div>
        </div>
@@ -142,5 +143,6 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+
   </body>
 </html>
