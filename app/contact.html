@@ -77,22 +77,22 @@
       <div class="container bsolr-contact" id="contactUs">
         <div class="row">
           <h1 class="title text-center contact-heading">Contact us</h1>
-          <!-- <h3 class="text-center">contact@bsolr.ro</h3> -->
+          <h3 class="text-center">contact@bsolr.ro</h3>
                   <div id="form-messages"></div>
                   <form id="ajax-contact" method="post" action="mailer.php">
                       <fieldset class="form-group">
                           <label for="name">Name</label>
-                          <input type="text" class="form-control" placeholder="Enter name" id="name" required>
+                          <input type="text" class="form-control" placeholder="Enter name" id="name" name="name" required>
                       </fieldset>
 
                       <fieldset class="form-group">
                           <label for="from">Email</label>
-                          <input type="email" class="form-control" placeholder="Enter email" id="from" required>
+                          <input type="email" class="form-control" placeholder="Enter email" id="from" name="email" required>
                       </fieldset>
 
                       <fieldset class="form-group">
                           <label for="text">Message</label>
-                          <textarea class="form-control" rows="3" id="text"></textarea>
+                          <textarea class="form-control" rows="3" id="text" name="message"></textarea>
                       </fieldset>
 
                       <button type="submit" class="btn btn-block btn-primary pull-right">Submit</button>
