@@ -96,6 +96,26 @@ body {
   font-size: 1.2em;
 }
 
+.winners {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.auctions {
+  color: red;
+}
+
+.auctions:hover {
+  color: red;
+}
+.img-center {
+  margin: 0 auto;
+}
+
+.my-img {
+  width: 50%;
+  margin: 0 auto;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -218,6 +238,28 @@ body {
 .agents {
   background-color: #fff;
   padding: 0 40px;
+}
+
+/* FLIGHTS
+-------------------------------------------------- */
+.hotspot {
+  width: 100%;
+}
+
+.final {
+  font-size: 3em;
+  margin-top: 5%;
+}
+.special_notes{
+  margin: 3% 0 2% 0;
+  font-size: 1em;
+}
+
+/* results page
+-------------------------------------------------- */
+.custom-text {
+  margin-top: 1.3em;
+  padding: 1em;
 }
 
 /* CONTACT FORM
